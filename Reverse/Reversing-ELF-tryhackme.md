@@ -83,7 +83,7 @@ strace
 
 and then I go into IDA. When I opened the C-code (pseudocode) view, I saw this:
 
-![crackme5 pseudocode](images/crackme5-pseudocode.png)
+![crackme5 pseudocode](image/crackme5-pseudocode.png)
 
 By the way, this screenshot is from after I reversed the condition. Like last time, I flipped the condition in the assembly to see what would happen.
 
@@ -154,7 +154,7 @@ This one is a simple program. When you run it, it has 3 options you can choose f
 
 So let's go into IDA. As soon as I got in, I understood what's going on. If you focus, you can see it too:
 
-![crackme7 pseudocode](images/crackme7-menu-pseudocode.png)
+![crackme7 pseudocode](image/crackme7-menu-pseudocode.png)
 
 The number `31337`: if we enter it, it gives the flag. So I enter this number and it gives me the flag.
 
@@ -176,7 +176,7 @@ I got the flag, but I wanted to see if I could change the second condition too a
 
 And you know what interesting thing happened? I solved it. There were 2 conditions in this program, I changed both of them, and I got the flag. So we were able to crack this program in 2 ways and get the flag.
 
-![crackme8 patched graph](images/crackme8-patched-graph.png)
+![crackme8 patched graph](image/crackme8-patched-graph.png)
 
 ---
 
