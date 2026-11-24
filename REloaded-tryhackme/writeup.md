@@ -6,9 +6,7 @@ Quick honest note before I start: I haven't reversed many `.exe` files, so I fro
 
 ---
 
-## Level 1
-
-### Question 1
+## Level 0
 
 This one was really easy, honestly. But since I'm not used to `.exe` files, I wasn't sure what to do first. The room's own hint said `strings`.
 
@@ -26,9 +24,11 @@ I jumped to that place, and yes, the answer was right there:
 
 ![Answer in .rdata](images/02-level1-answer-in-rdata.png)
 
-### Question 2
+---
 
-For the next question I looked for the `start` function right away, since I know that's the entry point. Now I had to analyze that function.
+## Level 1
+
+For the next one I looked for the `start` function right away, since I know that's the entry point. Now I had to analyze that function.
 
 I had already tried these without any result:
 
